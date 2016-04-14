@@ -7,7 +7,6 @@ function init() {
 }
 
 function checkValue() {
-  console.log($(this));
   var n = $(this).val();
   var max = $(this).attr('max');
   var min = $(this).attr('min');
