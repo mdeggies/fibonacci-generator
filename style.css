@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#seqLength {
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+h2 {
+  text-decoration: bold;
+}
+
+h5 {
+  margin-left: 28%;
+  margin-right: 28%;
+}
+
+h8 {
+  color: red;
+}

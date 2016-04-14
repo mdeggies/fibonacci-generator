@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fibonacci Generator</title>
+
+  <!-- JS INCLUDES -->
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script src="/libs/bootstrap-treeview.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src='/libs/decimal.min.js'></script>
+  <script src="main.js"></script>
+
+  <!-- STYLE INCLUDES -->
+  <link rel="stylesheet" href="/libs/bootstrap-treeview.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="">
+        <div class="jumbotron">
+          <h2>Fibonacci Sequence Generator</h2>
+          <h5>Enter a number (n) between 1 and 301 to view the first (n) numbers in the fibonacci sequence!</h5>
+          <div class="inputs">
+            <h8 id="warning">Results are not as precise when n > 90</h8>
+            <input type="number" class="form-control" id="seqLength" min="1" max="301" step="1" required>
+            <button type="button" class="btn btn-primary" id="calculate">Calculate</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="display"></div>
+        <div id="tree"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
